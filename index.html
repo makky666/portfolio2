@@ -1,53 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolioSite</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PortFolioSite</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class=header_logo>
-                <a href="https://www.youtube.com/watch?v=3Xo0RNTbw_o">
-                    <img src="" alt="">
-                </a>
-             </div>
-        <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#gallery">GALLERY</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </div>
-    </header>
-    <section class="mainV">
-        <div id="mainvisual">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kVLoCl6vpz0?loop=1&autoplay=1&mute=1&rel=0&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <header class="global-nav">
+      <img src="img/AElogo.png" alt="">
+      <h1>Masaki Pohotogallery</h1>
+    <nav>
+      <ul>
+        <li><a href="#jump-about">ABOUT</a></li>
+        <li><a href="#jump-gallery">GALLERY</a></li>
+        <li><a href="#jump-contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="mainV">
+        <iframe width="1200" height="550" src="https://www.youtube.com/embed/kVLoCl6vpz0?loop=1&autoplay=1&mute=1&rel=0&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <section class="about">
+    <h3 id="jump-about">ABOUT</h3>
+    <div class="vision">
+        <div class="face-images">
+            <img src="img/face.jpg" alt="face">
         </div>
-    </section>  
-    <section class="ABOUT">
-        <div class="container">
-        <h1 id="about">ABOUT</h1>
-        <img src="img/face.jpg" alt="">
-        <h2>Masaki</h2>
-        <p>Masakiです。愛媛県生まれ愛媛育ち、愛のあるところを求めて愛知に引っ越しした成人済み一般男性。<br>
+      <div class="vision-texts">
+        <h4>Masaki</h4>
+        <p>
+            Masakiです。愛媛県生まれ愛媛育ち、愛のあるところを求めて愛知に引っ越しした成人済み一般男性。<br>
             好きなものはジャズで趣味でジャムセッションやってます。愛機はYTS-62、通称「なごぱろちゃん」<br>
             マウスピース沼に片足突っ込んでそろそろ抜けなくなってきたこの頃....
         </p>
+       
+      </div>
     </div>
-    </section>
-   <section class="GALLERY">
-        <div class="container">
-         <h1 id="gallery">GALLERY</h1>
-        </div>
-    </section>
+    <div class="message">
+      <div class="message-texts">
+        <h4>すごい高尚なメッセージ</h4>
+        <p>
+          なんかすごい高尚な企業理念とか
+          企業が目指す未来とか<br>
+          とにかく理想っぽいテキスト
+        </p>
+      </div>
+      <div class="about-images">
+        <img src="gazou/about1.jpeg" alt="about image">
+        <img src="gazou/about02.jpeg" alt="about image">
+        <img src="gazou/about03.jpeg" alt="about image">
+      </div>
+    </div>
+  </section>
 
-    <section class="CONTACT">
-        <div class="container">
-        <h1 id="contact">CONTACT</h1>
+  <section class="gallery">
+    <h3 id="jump-gallery">SERVICE<small><br>事業内容について</small></h3>
+    <div class="service-main">
+      <div class="service-item-container1">
+        <div class="service-item1">
+          <span class="service-icon"></span>
+          <h4>主要サービス1</h4>
+          <p>そのサービスを受けたくなるような<br>とても素晴らしい説明文が入る</p>
+          <a class="linkbutton-readmore">READ MORE &gt;&nbsp;&gt;</a>
         </div>
-    </section>
+        <div class="service-item2">
+          <span class="service-icon"></span>
+          <h4>主要サービス2</h4>
+          <p>そのサービスを受けたくなるような<br>とても素晴らしい説明文が入る</p>
+          <a class="linkbutton-readmore">READ MORE &gt;&nbsp;&gt;</a>
+        </div>
+      </div>
+    </div>
+    <div class="service-sub">
+      <div class="service-item-container2">
+        <div class="service-item3">
+          <span class="service-icon"></span>
+          <h4>副次サービス1</h4>
+          <p>そのサービスを受けたくなるようなとても素晴らしい説明文が入る</p>
+          <a class="linkbutton-readmore">READ MORE &gt;&nbsp;&gt;</a>
+        </div>
+        <div class="service-item4">
+          <span class="service-icon"></span>
+          <h4>副次サービス2</h4>
+          <p>そのサービスを受けたくなるようなとても素晴らしい説明文が入る</p>
+          <a class="linkbutton-readmore">READ MORE &gt;&nbsp;&gt;</a>
+        </div>
+        <div class="service-item5">
+          <span class="service-icon"></span>
+          <h4>副次サービス3</h4>
+          <p>そのサービスを受けたくなるようなとても素晴らしい説明文が入る</p>
+          <a class="linkbutton-readmore">READ MORE &gt;&nbsp;&gt;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="access">
+    <h3>ACCESS<small><br>アクセス</small></h3>
+    <div class="access-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.7587292184858!2d132.76593591467633!3d33.84433223610637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fe5eb4ff98c1b%3A0x4a1825ad87a37b82!2z5p2-5bGx5Z-O!5e0!3m2!1sja!2sjp!4v1621468934167!5m2!1sja!2sjp" width="1200" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <p class="access-address">〒790-0008 愛媛県松山市丸之内１</p>
+  </section>
+
+  <section class="contact">
+    <h3>CONTACT<small><br>お問合せ先</small></h3>
+    <div class="contact-button-container">
+      <a class="contact-tel">
+        <span class="tel-hedding">ご相談窓口はこちら</span>
+        <span class="telno">089-945-4577</span>
+        <small><br>平日(9:00 〜 18:00) / 土曜(9:00 〜 12:00)</small>
+      </a>
+      <a class="contact-form">お問い合わせフォーム</a>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Aibara Entertainment</h2>
+    <nav>
+      <ul>
+        <li>LINK</li>
+        <li>LINK</li>
+        <li>LINK</li>
+        <li>LINK</li>
+        <li>LINK</li>
+        <li>LINK</li>
+      </ul>
+    </nav>
+    <p class="copyright">(c) 2021- Company Logo</p>
+  </footer>
 </body>
 </html>
