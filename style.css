@@ -13,7 +13,6 @@ body{
     padding: 0; 
     
  }
- 
 /* Loading背景画面設定　*/
 #splash {
     /*fixedで全面に固定*/
@@ -150,8 +149,7 @@ body{
    }
    
    h4{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-align: center;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
        font-size: 20px;
        color: #000000;
    }
@@ -224,20 +222,6 @@ body{
        color: black;
 
    }
-
-
-
-
-
-
-   .message-texts{
-        text-align: center;
-   }
-
-   .message-texts h4{
-       height: 60px;
-   }
-
    .about-images img{
        height: 290px;
        width: 0 auto;
@@ -246,8 +230,6 @@ body{
        position: center;
        margin-right: 10px;
    }
-
-
 
 p{
     font-family: 'ヒラギノ角ゴシック','Hiragino Sans','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
@@ -331,8 +313,6 @@ p{
        font-size: 20px;
        line-height: 35px;
    }
-
-   
 
    .contact{
     background-color: white;
