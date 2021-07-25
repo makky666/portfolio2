@@ -27,7 +27,7 @@ body{
      list-style:none;
    }
    header {
-    background-color: #ffffff;
+    background-color: rgb(230, 230, 230);
      padding: 0 30px;
    }
    .global-nav {
@@ -86,7 +86,7 @@ body{
    }
 
    .vision{
-       background-color: #f3f3f3;
+       background-color: rgb(230, 230, 230);
        margin-top: 0px;
        display: grid;
        grid-template-columns: 550px 600px;
@@ -169,7 +169,7 @@ body{
      text-align: center;
  }
 .gallery-sub{
-    background-color: #f3f3f3;
+    background-color: rgb(230, 230, 230);
 }
    .gallery-item-container{
        
@@ -234,7 +234,7 @@ body{
     margin: 0 auto;
     padding: 10px 0;
     max-width: 1200px;
-    background-color: #f3f3f3;
+    background-color: rgb(230, 230, 230);
    }
    .contact img{
 
