@@ -5,6 +5,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     background-color: rgb(255, 255, 255);
+    
 }
 
 * {
@@ -13,7 +14,6 @@ body{
  }
 
      .tab a{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 21px;
         color: rgb(0, 0, 0);
         text-decoration: none;
@@ -42,6 +42,7 @@ body{
      display: flex;
    }
    .global-nav li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
      margin: 30px;
      margin-left: 10px;
    }
@@ -54,10 +55,11 @@ body{
        width: 1200px;
        justify-content: center;
    }
-
+ 
   
 
    h3{
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
        font-weight: normal;
        font-size: 45px;
        color: #000000;
@@ -85,7 +87,7 @@ body{
        color: #000000;
    }
 
-   .vision{
+   .about-sub{
        background-color: rgb(230, 230, 230);
        margin-top: 0px;
        display: grid;
@@ -93,13 +95,13 @@ body{
        height: 500px;
    }
 
-   .vision-texts{
+   .about-texts{
        margin-top: 60px;
        margin-left: 80px;
        margin-right: 40px;
    }
 
-   .vision-texts h4{
+   .about-texts h4{
         height: 60px;
    }
 
@@ -171,7 +173,7 @@ body{
 .gallery-sub{
     background-color: rgb(230, 230, 230);
 }
-   .gallery-item-container{
+   .gallery-container{
        
        display: grid;
        grid-template-columns: 180px 180px 180px 180px 180px 180px;
