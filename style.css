@@ -100,7 +100,7 @@ body{
    }
 
    .about-texts{
-    font-family: 'ヒラギノ角ゴシック','Hiragino Sans','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+       font-family: 'ヒラギノ角ゴシック','Hiragino Sans','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
        margin-top: 60px;
        margin-left: 80px;
        margin-right: 40px;
@@ -154,7 +154,7 @@ body{
    }
 
    .about-images img{
-       height: 250px;
+       height: 290px;
        width: 0 auto;
        margin-left: 11px;
        align-items: center;
@@ -164,7 +164,9 @@ body{
 
 
 
-
+p{
+    font-family: 'ヒラギノ角ゴシック','Hiragino Sans','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
 
 
  .gallery{
@@ -245,7 +247,7 @@ body{
    }
    .contact img{
 
-       width: 40px;
+       width: 30px;
    }
    .contact ul{
        justify-content: center;
@@ -253,7 +255,7 @@ body{
        display: flex;
    }
    .contact li{
-       margin-left: 80px;
+       margin-left: 75px;
    }
    .contact h4{
        margin-left: -60px;
