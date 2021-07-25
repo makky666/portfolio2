@@ -192,9 +192,9 @@ body{
    .service-icon img{
        display: flex;
        background-color: #da7f7f;
-       width: 200px;
+       width: 250px;
        height: 250px;
-       border-radius: 10px;
+       border-radius: 20px;
        margin: 50px auto;
    }
 
