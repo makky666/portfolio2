@@ -13,14 +13,78 @@ body{
     padding: 0; 
     
  }
+ 
+/* Loading背景画面設定　*/
+#splash {
+    /*fixedで全面に固定*/
+      position: fixed;
+      width: 1200px;
+      height: 100%;
+      z-index: 999;
+      background:rgb(255, 255, 255);
+      text-align:center;
+      color:#fff;
+    }
+    
+    /* Loading画像中央配置　*/
+    #splash_logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    /* Loading アイコンの大きさ設定　*/
+    #splash_logo img {
+      width:260px;
+    }
+    
+    /* fadeUpをするアイコンの動き */
+    .fadeUp{
+    animation-name: fadeUpAnime;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+    }
+    
+    @keyframes fadeUpAnime{
+      from {
+        opacity: 0;
+      transform: translateY(100px);
+      }
+    
+      to {
+        opacity: 1;
+      transform: translateY(0);
+      }
+    }
  h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
+ a {
+    position: relative;
+    display: inline-block;
+    
+  }
+  .tab a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+  }
+  a:hover::after {
+    transform: scale(1, 1);
+  }
      .tab a{
         font-size: 21px;
         color: rgb(0, 0, 0);
-        text-decoration: none;
-        border-bottom: 2px solid rgb(0, 0, 0);
+        
     }
 
    .global-nav img{
@@ -119,6 +183,20 @@ body{
        position: center;
        grid-area: right;
    }
+
+.face-images > img {
+    display: inline-block;
+}
+.face-images > img:hover {
+    animation: 0.1s linear gakugaku infinite;
+}
+@keyframes gakugaku {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-1deg); }
+    50% { transform: rotate(0deg); }
+    100% { transform: rotate(1deg); }
+}
+  
    .social {
     list-style: none; 
     display: flex; 
@@ -312,6 +390,21 @@ p{
    .tab-end a{
     color: white;
    }
+   .tab-end a:hover::after {
+    transform: scale(1, 1);
+  }
+   .tab-end a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+  }
 
    #page_top{
     width: 90px;
@@ -337,7 +430,7 @@ p{
     position: absolute;
     width: 25px;
     height: 25px;
-    top: -40px;
+    top: 200px;
     bottom: 0;
     right: 0;
     left: 0;
