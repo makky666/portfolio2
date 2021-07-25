@@ -38,6 +38,10 @@ body{
     #splash_logo img {
       width:260px;
     }
+    #splash_logo h1 {
+        color: rgb(0, 0, 0);
+        width:260px;
+      }
     
     /* fadeUpをするアイコンの動き */
     .fadeUp{
@@ -46,6 +50,7 @@ body{
     animation-fill-mode:forwards;
     opacity: 0;
     }
+
     
     @keyframes fadeUpAnime{
       from {
@@ -142,7 +147,7 @@ body{
         padding: 100px 0 0 0;
         max-width: 1200px;
    }
-
+   
    h4{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
        font-size: 20px;
@@ -192,9 +197,9 @@ body{
 }
 @keyframes gakugaku {
     0% { transform: rotate(0deg); }
-    25% { transform: rotate(-1deg); }
+    25% { transform: rotate(-0.8deg); }
     50% { transform: rotate(0deg); }
-    100% { transform: rotate(1deg); }
+    100% { transform: rotate(0.8deg); }
 }
   
    .social {
@@ -255,14 +260,14 @@ p{
  .gallery p{
      text-align: center;
  }
-.gallery-sub{
+.gallery-main{
     background-color: rgb(230, 230, 230);
 }
    .gallery-container{
        
        display: grid;
        grid-template-columns: 180px 180px 180px 180px 180px 180px;
-       height: 400px;
+       height: 350px;
        justify-content: center;
       
    }
@@ -292,18 +297,32 @@ p{
        justify-content: center;
        text-align: center;
    }
+   .gallery-sub{
+    overflow: hidden;
+    cursor: pointer;
+   }
 
    .gallery-icon img{
        display: flex;
        background-color: #da7f7f;
-       width: 250px;
+       max-width: 250px;
        height: 250px;
        border-radius: 20px;
-       margin: 50px auto;
+       margin: 20px auto;
+      font-weight: bold;
+       border: solid 4px rgb(110, 110, 110);
+       transform: scale(1);
+       transition: .3s ease-in-out;
    }
 
-   .sgallery-sub h4{
-       font-size: 25px;
+   .gallery-icon :hover img {
+    border-radius: 90px;
+    transform: scale(1.05)
+   }
+
+   .gallery-sub h4{
+       
+       font-size: 20px;
    }
    .gallery-sub p{
        font-size: 20px;
