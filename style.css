@@ -133,6 +133,7 @@ body{
    h3{
        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
        font-weight: normal;
+       text-shadow: 2px 3px 4px rgb(112, 111, 111);
        font-size: 45px;
        color: #000000;
        align-items: center;
@@ -307,16 +308,17 @@ p{
        background-color: #da7f7f;
        max-width: 250px;
        height: 250px;
-       border-radius: 20px;
+       border-radius: 95px;
        margin: 20px auto;
       font-weight: bold;
        border: solid 4px rgb(110, 110, 110);
+       
        transform: scale(1);
        transition: .3s ease-in-out;
    }
 
    .gallery-icon :hover img {
-    border-radius: 90px;
+    border-radius: 10px;
     transform: scale(1.05)
    }
 
